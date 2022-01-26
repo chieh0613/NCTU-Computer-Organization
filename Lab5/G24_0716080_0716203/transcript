@@ -1,0 +1,865 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# OpenFile C:/CO_lab/lab5/lab5_modelsim/lab5.mpf
+# Loading project lab5
+# Compile of Adder.v was successful.
+# Compile of alu.v was successful.
+# Compile of ALU_Ctrl.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of EX_MEM.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of ID_EX.v was successful.
+# Compile of IF_ID.v was successful.
+# Compile of Imm_Gen.v was successful.
+# Compile of Instr_Memory.v was successful.
+# Compile of MEM_WB.v was successful.
+# Compile of MUX_2to1.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of Reg_File.v was successful.
+# Compile of testbench.v was successful.
+# Compile of Pipeline_CPU.v was successful.
+# Compile of MUX_3to1.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim work.testbench
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui C:\CO_lab\lab5\lab5_modelsim\lab5.mpf 
+# Start time: 00:50:06 on Jun 02,2020
+# Loading work.testbench
+# Loading work.Pipeline_CPU
+# Loading work.ProgramCounter
+# Loading work.Instr_Memory
+# Loading work.Adder
+# Loading work.IF_ID
+# Loading work.Reg_File
+# Loading work.Decoder
+# Loading work.Imm_Gen
+# Loading work.ID_EX
+# Loading work.MUX_3to1
+# Loading work.MUX_2to1
+# Loading work.ALU_Ctrl
+# Loading work.alu
+# Loading work.ForwardingUnit
+# Loading work.EX_MEM
+# Loading work.Data_Memory
+# Loading work.MEM_WB
+run -all
+# PC =          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =           0, R2 =         128, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =          4
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =           0, R2 =         128, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =          8
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =           0, R2 =         128, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         12
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =           0, R2 =         128, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         16
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =         128, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         20
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =         128, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         24
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =         128, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         28
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =         128, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         32
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =         128, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         36
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         40
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         44
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         48
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         52
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         56
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         60
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         64
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         68
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         72
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         76
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         80
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         84
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         88
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         92
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         96
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =         114, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        100
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =         114, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        104
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =         114, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        108
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =         114, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        112
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =         114, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        116
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =         114, R6 =          18, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        120
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =         114, R6 =          18, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        124
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =         114, R6 =          18, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        128
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =         114, R6 =          18, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        132
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =         114, R6 =          18, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        136
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          50, R2 =          18, R3 =          32, R4 =          82, R5 =         114, R6 =          18, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# ** Note: $finish    : C:/CO_lab/lab5/lab5_modelsim/testbench.v(30)
+#    Time: 1800 ns  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at C:/CO_lab/lab5/lab5_modelsim/testbench.v line 30
+quit -sim
+# Compile of Instr_Memory.v was successful.
+vsim work.testbench
+# vsim 
+# Start time: 00:50:46 on Jun 02,2020
+# Loading work.testbench
+# Loading work.Pipeline_CPU
+# Loading work.ProgramCounter
+# Loading work.Instr_Memory
+# Loading work.Adder
+# Loading work.IF_ID
+# Loading work.Reg_File
+# Loading work.Decoder
+# Loading work.Imm_Gen
+# Loading work.ID_EX
+# Loading work.MUX_3to1
+# Loading work.MUX_2to1
+# Loading work.ALU_Ctrl
+# Loading work.alu
+# Loading work.ForwardingUnit
+# Loading work.EX_MEM
+# Loading work.Data_Memory
+# Loading work.MEM_WB
+run -all
+# PC =          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =           0, R2 =         128, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =          4
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =           0, R2 =         128, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =          8
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =           0, R2 =         128, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         12
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =           0, R2 =         128, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         16
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =         128, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         20
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =           0, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         24
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =           0, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         28
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =           0, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         32
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =           0, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         36
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =           0
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         40
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           0, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         44
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =           0, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         48
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         52
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         56
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         60
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         64
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         68
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         72
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         76
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         80
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         84
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         88
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         92
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =         96
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        100
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        104
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        108
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        112
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        116
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        120
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        124
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        128
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        132
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# PC =        136
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Data Memory =          0,          0,          0,          0,          0,          0,          0,          0
+# Registers
+# R0 =           0, R1 =          23, R2 =          13, R3 =          16, R4 =          29, R5 =          10, R6 =          33, R7 =          26
+# R8 =           8, R9 =          41, R10 =          0, R11 =          0, R12 =          0, R13 =          0, R14 =          0, R15 =          0
+# R16 =          0, R17 =          0, R18 =          0, R19 =          0, R20 =          0, R21 =          0, R22 =          0, R23 =          0
+# R24 =          0, R25 =          0, R26 =          0, R27 =          0, R28 =          0, R29 =          0, R30 =          0, R31 =          0
+# 
+# ** Note: $finish    : C:/CO_lab/lab5/lab5_modelsim/testbench.v(30)
+#    Time: 1800 ns  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at C:/CO_lab/lab5/lab5_modelsim/testbench.v line 30
+quit -sim

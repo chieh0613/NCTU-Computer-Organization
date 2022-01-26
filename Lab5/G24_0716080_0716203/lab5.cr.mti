@@ -1,0 +1,134 @@
+C:/CO_lab/lab5/lab5_modelsim/ForwardingUnit.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/ForwardingUnit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ForwardingUnit
+
+Top level modules:
+	ForwardingUnit
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/Decoder.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/Decoder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Decoder
+
+Top level modules:
+	Decoder
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/ALU_Ctrl.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/ALU_Ctrl.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU_Ctrl
+
+Top level modules:
+	ALU_Ctrl
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/MUX_2to1.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/MUX_2to1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MUX_2to1
+
+Top level modules:
+	MUX_2to1
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/MEM_WB.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/MEM_WB.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MEM_WB
+
+Top level modules:
+	MEM_WB
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/ID_EX.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/ID_EX.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/Data_Memory.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/Data_Memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/alu.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/alu.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/IF_ID.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/IF_ID.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/EX_MEM.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/EX_MEM.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/Imm_Gen.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/Imm_Gen.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Imm_Gen
+
+Top level modules:
+	Imm_Gen
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/Pipeline_CPU.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/Pipeline_CPU.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Pipeline_CPU
+
+Top level modules:
+	Pipeline_CPU
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/ForwardingUnit2.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/ForwardingUnit2.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ForwardingUnit2
+
+Top level modules:
+	ForwardingUnit2
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/Reg_File.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/Reg_File.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Reg_File
+
+Top level modules:
+	Reg_File
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/Instr_Memory.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/Instr_Memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Instr_Memory
+
+Top level modules:
+	Instr_Memory
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/MUX_3to1.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/MUX_3to1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MUX_3to1
+
+Top level modules:
+	MUX_3to1
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/testbench.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/testbench.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/ProgramCounter.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/ProgramCounter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ProgramCounter
+
+Top level modules:
+	ProgramCounter
+
+} {} {}} C:/CO_lab/lab5/lab5_modelsim/Adder.v {1 {vlog -work work -stats=none C:/CO_lab/lab5/lab5_modelsim/Adder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}}
